@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Adjust margin for better positioning */
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Subjects container styles */
+.subjects-container {
+    margin-top: 20px;
+    text-align: left; /* Align subjects to the left */
+}
+
+/* Checkbox container styles */
+.checkbox {
+    margin-bottom: 10px; /* Add space between checkboxes */
+}
+
+/* Checkbox input styles */
+.checkbox input[type="checkbox"] {
+    margin-right: 5px; /* Add space between checkbox and label */
+}
+
+/* Label styles */
+.checkbox label {
+    display: inline-block; /* Ensure label and checkbox appear on the same line */
+}
+
+/* Course selector styles */
+.course-selector {
+    margin-bottom: 20px;
+}
+
+/* Semester button styles with updated colors */
+.semester-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green color */
+    border: none;
+    color: white;
+}
+
+/* Submit button styles with updated colors */
+.container button {
+    margin-top: 20px; /* Adjust margin to separate from other elements */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* Vibrant blue color */
+    border: none;
+    color: white;
+}
+
+/* Hover effect for buttons */
+.semester-buttons button:hover,
+.container button:hover {
+    opacity: 0.8;
+}
+
+
